@@ -1,7 +1,14 @@
 [package]
 name = "template"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 license = "MIT"
+authors = ["<Qiqianily> <Joedian@163.com>"]
+description = "A template for Rust projects"
 resolver = "2"
+
 [dependencies]
+
+[[bin]]
+name = "template"
+path = "src/main.rs"
