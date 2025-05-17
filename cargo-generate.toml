@@ -1,0 +1,5 @@
+[template]
+skip = [
+    "cliff.toml",
+    "README.md",
+]
